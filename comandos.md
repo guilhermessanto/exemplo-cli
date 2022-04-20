@@ -30,5 +30,8 @@
 `git push -u origin main`
 `git push u origin main`
 
+## Recuperar histórico do repositório remoto
+`git pull`
+
 ## Para mais informações de comandos:
  https://training.github.com/dowloads/pt-BR/github-git-cheat-sheet/
