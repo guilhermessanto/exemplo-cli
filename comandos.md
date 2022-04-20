@@ -1,6 +1,6 @@
 # Principais  comandos git
 
-## Inicializar repositório
+## Inicializar repositório (somente 1x por repositório)
 `git init` 
 ## Adiciona o arquivo ao git (coloca stash)
 `git add nome-arquivo`
@@ -23,11 +23,12 @@
 ## Fazer clone de um repositório 
 `git clone endereço-repositóprio.git`
 
-##  Adiciona uma referência do repositório remoto no ambiente local
+##  Adiciona uma referência do repositório remoto no ambiente local (somente 1x por repositório)
 `git remote add origin endereço-repositório.git`
 
-## Fazer o push (enviar) para o repositório remoto
+## Fazer o push (enviar) com -u para o repositório remoto (com -u somente 1x)
 `git push -u origin main`
+`git push u origin main`
 
 ## Para mais informações de comandos:
  https://training.github.com/dowloads/pt-BR/github-git-cheat-sheet/
